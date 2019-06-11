@@ -11,7 +11,15 @@ const ProductSchema = new mongoose.Schema({
         type:String,
         required:true
     },
-    url: {
+    price: {
+        type: Number,
+        required:true
+    },
+    brand: {
+        type: String,
+        required:true
+    },
+    imageurl: {
         type: String,
         required:true
     },
